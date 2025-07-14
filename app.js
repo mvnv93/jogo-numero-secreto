@@ -1,9 +1,9 @@
 let listaNuemeroSoreados = []; //teste
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = geraNumeroAleatorio();
 let tentativas = 1;
 // let titulo = document.querySelector('h1');
-// titulo.innerHTML = 'Jogo do número secreto';
+// // titulo.innerHTML = 'Jogo do número secreto'; 
 
 // let paragrafo = document.querySelector('p');
 // paragrafo.innerHTML = 'Informe um número entre 1 e 10';
@@ -16,7 +16,7 @@ function exibirTextoNaTela(tag, texto){
 
 function exibirMensagemInicial(){
     exibirTextoNaTela('h1','Jogo do número secreto');
-    exibirTextoNaTela('p','Informe um número entre 1 e 10');
+    exibirTextoNaTela('p','Informe um número entre 1 e 100');
 }
 
 exibirMensagemInicial();
